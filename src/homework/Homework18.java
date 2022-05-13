@@ -8,9 +8,11 @@ public class Homework18 {
     public static void main(String[] args) {
         //Test Here
         System.out.println("\n------METHOD 1------");
-        System.out.println(noSpace1("Hello      I am Kaycee"));
-        System.out.println(noSpace2("Hello      I am Kaycee"));
-        System.out.println(noSpace3("Hello      I am Kaycee"));
+        System.out.println(noSpace1(""));
+        System.out.println(noSpace1("Java"));
+        System.out.println(noSpace2("   Hello   "));
+        System.out.println(noSpace3(" Hello World   "));
+        System.out.println(noSpace3("Tech Global"));
         System.out.println("\n------METHOD 2------");
         System.out.println(replaceFirstLast(""));
         System.out.println(replaceFirstLast("A"));
